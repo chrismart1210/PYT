@@ -1,6 +1,6 @@
 function BackUper_v3__Sheet()
 {
-  // INPUT's
+  // INPUTs
     // Datos de la Fuente de Exportación
       var Book_origen = "ID" ;
         var Sheet_origen = SpreadsheetApp.openById(Book_origen).getSheetByName("Export Sheet_WH");

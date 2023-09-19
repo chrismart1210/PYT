@@ -1,4 +1,4 @@
-function BackUper_v2__IG()
+function BackUper_v2__Sheet()
 {
   // INPUTs
     // Origen 
@@ -6,7 +6,6 @@ function BackUper_v2__IG()
         var Upload_Row = 1;
         var Upload_Col = 1;
     
-
     // Destino
       var Sheet_destino = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Import Sheet duro");
         var Download_Row = 1;
