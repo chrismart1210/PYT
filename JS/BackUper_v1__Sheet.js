@@ -5,12 +5,12 @@ function BackUper_v1__Sheet()
       var Book = "ID" ;
 
       var Sheet_origen = SpreadsheetApp.openById(Book).getSheetByName("Export Sheet_WH");
-        var Upload_Row = 2;
+        var Upload_Row = 1;
         var Upload_Col = 1;
     
     // Destino
       var Sheet_destino = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Import Sheet_WH");
-        var Download_Row = 2;
+        var Download_Row = 1;
         var Download_Col = 1;
 
 

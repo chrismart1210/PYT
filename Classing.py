@@ -1,7 +1,7 @@
 from PIL import Image
 
 # INPUT 1
-img_path = r'C:/Users/Chris/My Drive/000/PYT/Classing_muestra1.png'
+img_path = r'D:/PYT/Classing_muestra1.png'
 img = Image.open(img_path)
 
 #1img.show()
